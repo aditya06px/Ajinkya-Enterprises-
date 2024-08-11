@@ -1,0 +1,75 @@
+body{
+  font-family: Open Sans, Arial, sans-serif;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+:root {
+    --header-height: 3.5rem;
+
+    /*========== Font and typography ==========*/
+    /*.5rem = 8px | 1rem = 16px ...*/
+    --body-font: "Bai Jamjuree", sans-serif;
+    --biggest-font-size: 2.5rem;
+    --h1-font-size: 1.75rem;
+    --h2-font-size: 1.25rem;
+    --h3-font-size: 1.125rem;
+    --normal-font-size: 0.938rem;
+    --small-font-size: 0.813rem;
+    --smaller-font-size: 0.75rem;
+  
+    /*========== Font weight ==========*/
+    --font-regular: 400;
+    --font-medium: 500;
+    --font-semi-bold: 600;
+    --font-bold: 700;
+
+
+    /*========== Colors ==========*/
+  --navbar-color: #001f3f;
+  --navbar-toggle-color: #001f3f;
+  --navar-link-hover-underline-color: #7FDBFF;
+  
+  --footer-color: #001f3f;
+  --footer-text-color: #fff;
+ 
+  --button-color: #5A4BAD;
+  --button-hover-color: #725AC1;
+ --button-text-color:  white;
+  
+  --text-color: white;
+  --body-color: hsl(0, 0%, 87%);
+  
+  --link-color: #fff;
+  --link-hover-color: #7FDBFF;
+  
+  --white-color: white;
+  --black-color: black;
+
+  --card-background-color: #2F4C9B;
+  --home-page-card-text-color: black;
+  --card-logo-bg-color: #f5f5f5;
+  --about-page-card-color: #d2d8ef;
+  --why-choose-us-card-color: #215070;
+
+  --our-services-hero-section: #D9D9D9;
+
+  }
+
+.App {
+    height: 100vh;
+}
+
+  /* 
+       for mobile screens 
+       width: 80%
+
+        for laptop screens 
+
+
+        width: 80%;
+        max-width: 1056px;
+  */
+
+
