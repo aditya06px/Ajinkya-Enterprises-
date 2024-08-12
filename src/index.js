@@ -6,6 +6,7 @@ import reportWebVitals from './reportWebVitals';
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import SliderComponent from './Component/SliderComponent/SliderComponent';
 import Footer from "./Component/Footer/Footer"
+import CompaniesWeWorkWith from './Component/CompaniesWeWorkWith/CompaniesWeWorkWith';
 
 
 const Index = () => {
@@ -16,6 +17,7 @@ const Index = () => {
         <div> 
           <h1> this is the start of the new Project</h1>
           <SliderComponent />
+           <CompaniesWeWorkWith />
           <Footer />
         {/* <Nav activePage={activePage} handleItemClick={handleItemClick}  /> */}
         </div>
