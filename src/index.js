@@ -5,7 +5,7 @@ import './App.css'
 import reportWebVitals from './reportWebVitals';
 import { Outlet, RouterProvider, createBrowserRouter } from "react-router-dom";
 import SliderComponent from './Component/SliderComponent/SliderComponent';
-
+import Footer from "./Component/Footer/Footer"
 
 
 const Index = () => {
@@ -16,6 +16,7 @@ const Index = () => {
         <div> 
           <h1> this is the start of the new Project</h1>
           <SliderComponent />
+          <Footer />
         {/* <Nav activePage={activePage} handleItemClick={handleItemClick}  /> */}
         </div>
         <Outlet />
